@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="movieclash.css" />
+    <meta charset="UTF-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieClash</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title is-1 has-text-centered has-background-primary topic">
+        🎞️ Movie Fight
+      </h1>
+      <div class="columns is-mobile is-centered is-multiline">
+        <div class="column is-half is-6">
+          <div class="left-autocomplete"></div>
+          <div class="left-summary"></div>
+        </div>
+        <div class="column is-half is-6">
+          <div class="right-autocomplete"></div>
+          <div class="right-summary"></div>
+        </div>
+        <div class="column is-half bd-notification mynotify is-6">
+          <h1 class="title has-text-centered has-text-white">
+            Search a Movie On Both 💥 Side
+          </h1>
+          <p class="subtitle has-text-centered has-text-white">
+            We Will tell you Which is Best
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="autocomplete.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

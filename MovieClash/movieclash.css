@@ -1,0 +1,64 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+img {
+    height: 80px;
+    width: 50px;
+}
+
+div.dropdown-menu {
+    display: flex;
+}
+
+.topic,
+.mynotify {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    color: #ffffff;
+    /* Text color */
+    background-color: #00d1b2;
+    /* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Box shadow */
+    border-radius: 8px;
+    /* Border radius for a rounded look */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color */
+}
+
+.topic:hover {
+    background-color: #97c4e2;
+    /* Change background color on hover */
+}
+
+.mynotify {
+    margin-top: 40px;
+    background: #00d1b2;
+    color: #ffffff;
+}
+
+article.media {
+    flex-direction: column;
+    column-gap: 0px;
+}
+
+.media {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    /* Responsive grid */
+}
+
+.notification.is-primary {
+    flex: 1 1 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container-content {
+    display: flex;
+    margin-top: 15px;
+}
